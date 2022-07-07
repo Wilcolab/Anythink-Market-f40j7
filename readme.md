@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+1. Make sure you have docker-compose on your machine
+2. Clone the repo to your machine
+3. Go in the terminal to the locaiton of the repo and run docker-compose up
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
