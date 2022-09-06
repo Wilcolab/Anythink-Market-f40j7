@@ -7,7 +7,7 @@ env_var = os.environ
 
 # SQLAlchemy >= 1.4 deprecated the use of `postgres://` in favor of `postgresql://`
 # for the database connection url
-database_url = "HARD_CODED_DATABASE_URL".replace("postgres://", "postgresql://")
+database_url = env_var['DATABASE_URL'].replace("postgres://", "postgresql://")
 
 engine = create_engine(database_url, echo=True)
 
